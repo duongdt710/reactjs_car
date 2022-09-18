@@ -1,0 +1,13 @@
+table, td ,th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.btn-action {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .edit-btn, .delete-btn {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,11 @@
+.list-data-item {
+  &:not(:last-child) {
+    border-bottom: 1px solid white;
+    padding: 5px 5px;
+  }
+  cursor: pointer;
+  &:hover {
+    color: black;
+    background-color: #ddd;
+  }
+}
