@@ -8,7 +8,7 @@ class Nav extends React.Component {
     render() {
         return (
             <div className="topnav">
-                <NavLink to="/" exact={true} activeClassName="active">
+                <NavLink to="/home" exact={true} activeClassName="active">
                     Home
                 </NavLink>
                 <NavLink to="/practices" activeClassName="active">
@@ -22,9 +22,6 @@ class Nav extends React.Component {
                 </NavLink>
                 <NavLink to="/myLoading" activeClassName="active">
                     Show Loading
-                </NavLink>
-                <NavLink to="/login" activeClassName="active">
-                    Login
                 </NavLink>
             </div>
         )

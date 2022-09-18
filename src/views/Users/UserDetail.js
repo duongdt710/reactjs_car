@@ -1,6 +1,6 @@
 import {useState, CSSProperties} from "react";
 import React from "react";
-import {withRouter} from "react-router-dom";
+// import {withRouter} from "react-router-dom";
 import axios from "axios";
 import {ClipLoader} from "react-spinners/ClipLoader";
 import ShowLoading from "../showLoading/ShowLoading";
@@ -63,4 +63,5 @@ class UserDetail extends React.Component {
     }
 }
 
-export default withRouter(UserDetail);
+// export default withRouter(UserDetail);
+export default UserDetail;

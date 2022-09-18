@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import {withRouter} from "react-router-dom";
+// import {withRouter} from "react-router-dom";
 import './User.scss'
 import ShowLoading from "../showLoading/ShowLoading";
 import {toast} from "react-toastify";
@@ -113,4 +113,5 @@ class Users extends React.Component {
     }
 }
 
-export default withRouter(Users);
+// export default withRouter(Users);
+export default Users;
